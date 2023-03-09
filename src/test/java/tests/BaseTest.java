@@ -4,9 +4,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.BeforeTest;
-import pages.CartPage;
-import pages.InventoryPage;
 import pages.LoginPage;
 import pages.Strings;
 
@@ -14,8 +11,8 @@ import java.time.Duration;
 
 public class BaseTest {
 
-    public FirefoxDriver openChromeDriver() {
-        WebDriverManager.firefoxdriver().setup();
+    public FirefoxDriver openWebDriver() {
+        WebDriverManager.chromedriver().setup();
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--start-maximized");

@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,7 +16,7 @@ public class InventoryTests extends BaseTest{
     @BeforeMethod
     public void setUp() {
         // Set up the driver, InventoryPage, and CartPage before each test method
-        driver = openChromeDriver();
+        driver = openWebDriver();
         loginWithValidData(driver);
         inventoryPage = new InventoryPage(driver);
     }
