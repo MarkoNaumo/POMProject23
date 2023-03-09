@@ -17,7 +17,7 @@ public class CardTests extends BaseTest {
     @BeforeMethod
     public void setUp() {
         // Set up the driver, InventoryPage, and CartPage before each test method
-        driver = openChromeDriver();
+        driver = openWebDriver();
         loginWithValidData(driver);
         inventoryPage = new InventoryPage(driver);
         cartPage = new CartPage(driver);
