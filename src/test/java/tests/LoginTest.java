@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest {
         FirefoxDriver driver = openChromeDriver();
         try {
             LoginPage loginPage = new LoginPage(driver);
-            loginPage.Login(Strings.VALID_USERNAME, "secret_saucess");
+            loginPage.Login(Strings.INVALID_USERNAME, Strings.VALID_PASSWORD);
             Assert.assertEquals(loginPage.getTextFromErrorMessage(),Strings.ERROR_MESSAGE,"Wrong");
         } finally {
             driver.quit();
