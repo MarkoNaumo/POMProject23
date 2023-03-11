@@ -17,7 +17,7 @@ public class LoginPage {
     @FindBy(css = ".error h3")
     WebElement errorMessage;
 
-    public LoginPage(FirefoxDriver driver){
+    public LoginPage(ChromeDriver driver){
         PageFactory.initElements(driver,this);
     }
 

@@ -1,6 +1,9 @@
 package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -11,9 +14,9 @@ import java.time.Duration;
 
 public class BaseTest {
 
-    public FirefoxDriver openWebDriver() {
+    public ChromeDriver openWebDriver() {
         WebDriverManager.chromedriver().setup();
-        FirefoxOptions options = new FirefoxOptions();
+        ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--start-maximized");
         options.addArguments("--ignore-certificate-errors");
@@ -21,10 +24,7 @@ public class BaseTest {
         options.addArguments("--incognito");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(FirefoxOptions.FIREFOX_OPTIONS,options);
-        options.merge(capabilities);
-        FirefoxDriver driver = new FirefoxDriver();
+        ChromeDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -40,7 +40,7 @@ public class BaseTest {
 //
 //    }
 
-    public void loginWithValidData(FirefoxDriver driver){
+    public void loginWithValidData(ChromeDriver driver){
         LoginPage loginPage = new LoginPage(driver);
         loginPage.Login(Strings.VALID_USERNAME,Strings.VALID_PASSWORD);
     }

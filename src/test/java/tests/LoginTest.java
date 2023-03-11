@@ -1,22 +1,21 @@
 package tests;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.InventoryPage;
 import pages.LoginPage;
 import pages.Strings;
 
 public class LoginTest extends BaseTest {
 
-    FirefoxDriver driver;
+    ChromeDriver driver;
     LoginPage loginPage;
 
     @BeforeMethod
     public void setUp() {
-        // Set up the driver, InventoryPage, and CartPage before each test method
         driver = openWebDriver();
         loginPage = new LoginPage(driver);
     }
@@ -37,7 +36,6 @@ public class LoginTest extends BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        // Close the driver after each test method
         driver.quit();
     }
 }

@@ -10,12 +10,11 @@ import pages.InventoryPage;
 
 public class InventoryTests extends BaseTest{
 
-    private FirefoxDriver driver;
+    private ChromeDriver driver;
     private InventoryPage inventoryPage;
 
     @BeforeMethod
     public void setUp() {
-        // Set up the driver, InventoryPage, and CartPage before each test method
         driver = openWebDriver();
         loginWithValidData(driver);
         inventoryPage = new InventoryPage(driver);
@@ -32,7 +31,6 @@ public class InventoryTests extends BaseTest{
 
     @AfterMethod
     public void tearDown() {
-        // Close the driver after each test method
         driver.quit();
     }
 }

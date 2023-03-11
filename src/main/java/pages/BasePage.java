@@ -1,11 +1,12 @@
 package pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 
 public class BasePage{
-    FirefoxDriver driver;
+    ChromeDriver driver;
     @FindBy(id = "react-burger-menu-btn")
     WebElement hamburgerMenu;
     @FindBy(css = "#shopping_cart_container .shopping_cart_badge")

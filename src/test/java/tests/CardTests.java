@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -10,21 +11,19 @@ import pages.InventoryPage;
 
 public class CardTests extends BaseTest {
 
-    private FirefoxDriver driver;
+    private ChromeDriver driver;
     private InventoryPage inventoryPage;
     private CartPage cartPage;
 
     @BeforeMethod
     public void setUp() {
-        // Set up the driver, InventoryPage, and CartPage before each test method
         driver = openWebDriver();
         loginWithValidData(driver);
         inventoryPage = new InventoryPage(driver);
         cartPage = new CartPage(driver);
     }
-
-    @Test
-    public void checkProductIsInCart(){
+        @Test
+        public void checkProductIsInCart(){
         inventoryPage.AddSauceBikeLightInCart();
         inventoryPage.clickOnShoppingCart();
         var name = cartPage.getItemName();
@@ -39,7 +38,6 @@ public class CardTests extends BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        // Close the driver after each test method
         driver.quit();
     }
 }
