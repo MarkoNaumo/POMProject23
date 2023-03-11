@@ -49,8 +49,9 @@ public class InventoryPage extends BasePage {
         return firstItemPrice.getText();
     }
 
-    public InventoryPage(FirefoxDriver driver) {
+    public InventoryPage(ChromeDriver driver) {
         print("Open Inventory page");
         PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 }
