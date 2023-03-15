@@ -28,6 +28,24 @@ public class InventoryTests extends BaseTest{
         Assert.assertEquals("2",inventoryPage.getNumberOfProductInCart());
     }
 
+    @Test
+    public void faceBook(){
+        inventoryPage.facebookSwitch();
+        Assert.assertEquals("https://www.facebook.com/saucelabs",driver.getCurrentUrl());
+    }
+    @Test
+    public void twitter(){
+        inventoryPage.twitterSwitch();
+        Assert.assertEquals("https://twitter.com/saucelabs",driver.getCurrentUrl());
+    }
+
+    @Test
+    public void linkedin(){
+        inventoryPage.linkedinSwitch();
+        Assert.assertEquals("https://www.linkedin.com/company/sauce-labs/?original_referer=",driver.getCurrentUrl());
+    }
+
+
     @AfterMethod
     public void tearDown() {
         driver.quit();

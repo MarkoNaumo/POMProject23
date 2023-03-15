@@ -1,7 +1,9 @@
 package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,6 +16,7 @@ import java.time.Duration;
 
 public class BaseTest {
 
+    WebDriver driver;
     public ChromeDriver openWebDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
@@ -32,12 +35,6 @@ public class BaseTest {
     }
 
 
-//    public void scrollInToView(WebElement webElement)
-//    {
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("argument[0].scrollIntoView(true)",webElement);
-//
-//    }
 
     public void loginWithValidData(ChromeDriver driver){
         LoginPage loginPage = new LoginPage(driver);
