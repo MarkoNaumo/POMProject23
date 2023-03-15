@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Add Before and After methode in Login Page">
+    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Chrome Driver Resloved problem">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/DraggablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Hover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/SelectMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Slider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Tab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Upload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
@@ -15,6 +25,11 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/InventoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InventoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SortingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SortingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/CardTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/CardTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/InventoryTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/InventoryTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" afterDir="false" />
@@ -35,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ChromeDriverResloved" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +88,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Java/POMProject23"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Java/demoqa-webUI-automation-project-master"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,18 +97,18 @@
       <recent name="C:\Java\POMProject23" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SortingTests">
-    <configuration name="CardTests.checkProductIsInCart" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.loginWithValidCredential">
+    <configuration name="DraggablePage.dragDrop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CardTests" />
-      <option name="METHOD_NAME" value="checkProductIsInCart" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.DraggablePage" />
+      <option name="METHOD_NAME" value="dragDrop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,17 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginWithInvalidValidCredential" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Hover.hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginWithInvalidValidCredential" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Hover" />
+      <option name="METHOD_NAME" value="hover" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,33 +152,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMenu.selectMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SortingTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.SelectMenu" />
+      <option name="METHOD_NAME" value="selectMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Slider.slide" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Slider" />
+      <option name="METHOD_NAME" value="slide" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -171,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SortingTests" />
-        <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.LoginTest.loginWithValidCredential" />
-        <item itemvalue="TestNG.CardTests.checkProductIsInCart" />
-        <item itemvalue="TestNG.LoginTest.loginWithInvalidValidCredential" />
+        <item itemvalue="TestNG.DraggablePage.dragDrop" />
+        <item itemvalue="TestNG.SelectMenu.selectMenu" />
+        <item itemvalue="TestNG.Slider.slide" />
+        <item itemvalue="TestNG.Hover.hover" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678367663314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chrome Driver Resloved problem">
+      <created>1678551642851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678551642851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,15 +245,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AddTests" />
     <MESSAGE value="Add Before and After methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Before and After methode" />
+    <MESSAGE value="Chrome Driver Resloved problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chrome Driver Resloved problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/Slider.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/SelectMenu.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
