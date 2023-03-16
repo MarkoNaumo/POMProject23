@@ -1,8 +1,6 @@
 package practice;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -39,6 +37,29 @@ public class Form {
         Select YearSelect = new Select(driver.findElement(By.className("react-datepicker__year-select")));
         YearSelect.selectByValue("2002");
         driver.findElement(By.className("react-datepicker__day--008")).click();
+
+        WebElement subjectsContainer = driver.findElement(By.id("subjectsInput"));
+        subjectsContainer.sendKeys("Ucimo QA");
+
+        WebElement hobbies =driver.findElement(By.cssSelector("label[for='hobbies-checkbox-3']"));
+        hobbies.click();
+
+        WebElement browserButton = driver.findElement(By.id("uploadPicture"));
+        browserButton.sendKeys("C:\\Java\\POMProject23\\src\\test\\java\\practice\\QA-1.png");
+
+        WebElement currentAddress = driver.findElement(By.id("currentAddress"));
+        currentAddress.sendKeys("Cometrade");
+
+        WebElement state = driver.findElement(By.id("react-select-3-input"));
+        WebElement city = driver.findElement(By.id("react-select-4-input"));
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView()", state);
+
+        state.sendKeys("NCR");
+        state.sendKeys(Keys.ENTER);
+        city.sendKeys("Delhi");
+        city.sendKeys(Keys.ENTER);
 
     }
 }

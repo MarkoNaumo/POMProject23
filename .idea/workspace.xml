@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Update Practise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LinkTests.java" afterDir="false" />
+    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Update social tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InventoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InventoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/InventoryTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/InventoryTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Form.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ActonOnTestPage" />
+        <entry key="$PROJECT_DIR$" value="Pratctice" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,31 +57,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Java/POMProject23"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/POMProject23&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\POMProject23" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.InventoryTests.linkedin">
-    <configuration name="InventoryTests.checkThatTheTwitterLinkOpensANewTab" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Form.inputFormRegistration">
+    <configuration name="Form.inputFormRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InventoryTests" />
-      <option name="METHOD_NAME" value="checkThatTheTwitterLinkOpensANewTab" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Form" />
+      <option name="METHOD_NAME" value="inputFormRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Form.inputFormRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POMProject23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Form" />
+      <option name="METHOD_NAME" value="inputFormRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,31 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginWithValidCredential" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="POMProject23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginWithValidCredential" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Form.inputFormRegistration" />
+        <item itemvalue="TestNG.Form.inputFormRegistration (1)" />
         <item itemvalue="TestNG.InventoryTests.linkedin" />
         <item itemvalue="TestNG.InventoryTests.twitter" />
         <item itemvalue="TestNG.InventoryTests.faceBook" />
-        <item itemvalue="TestNG.InventoryTests.checkThatTheTwitterLinkOpensANewTab" />
-        <item itemvalue="TestNG.LoginTest.loginWithValidCredential" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678892431342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update social tests">
+      <created>1678897629975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678897629975</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +234,8 @@
     <MESSAGE value="Add Before and After methode" />
     <MESSAGE value="Chrome Driver Resloved problem" />
     <MESSAGE value="Update Practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Practise" />
+    <MESSAGE value="Update social tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update social tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,6 +259,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java</url>
           <line>22</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/Form.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/Form.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
