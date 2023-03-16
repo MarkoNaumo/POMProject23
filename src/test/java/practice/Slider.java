@@ -25,5 +25,7 @@ public class Slider {
         Actions actions =new Actions(driver);
         actions.moveToElement(slider,25,0).perform();
         slider.click();
+
+        driver.quit();
     }
 }

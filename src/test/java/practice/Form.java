@@ -5,17 +5,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Form {
     @Test
-    public void inputFormRegistration(){
+    public void inputFormRegistration() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
         driver.navigate().to("https://demoqa.com/automation-practice-form");
         driver.manage().window().maximize();
 
+        //input
         WebElement firstName = driver.findElement(By.id("firstName"));
         firstName.sendKeys("Marko");
         WebElement lastName = driver.findElement(By.id("lastName"));
@@ -28,7 +30,7 @@ public class Form {
         Actions actions = new Actions(driver);
         actions.moveToElement(gender).click().perform();
         WebElement userNumber = driver.findElement(By.id("userNumber"));
-        userNumber.sendKeys("063123456");
+        userNumber.sendKeys("0631234567");
 
         //Date
         driver.findElement(By.id("dateOfBirthInput")).click();
@@ -38,10 +40,12 @@ public class Form {
         YearSelect.selectByValue("2002");
         driver.findElement(By.className("react-datepicker__day--008")).click();
 
+        //subject
         WebElement subjectsContainer = driver.findElement(By.id("subjectsInput"));
         subjectsContainer.sendKeys("Ucimo QA");
+        subjectsContainer.click();
 
-        WebElement hobbies =driver.findElement(By.cssSelector("label[for='hobbies-checkbox-3']"));
+        WebElement hobbies = driver.findElement(By.cssSelector("label[for='hobbies-checkbox-3']"));
         hobbies.click();
 
         WebElement browserButton = driver.findElement(By.id("uploadPicture"));
@@ -59,7 +63,20 @@ public class Form {
         state.sendKeys("NCR");
         state.sendKeys(Keys.ENTER);
         city.sendKeys("Delhi");
-        city.sendKeys(Keys.ENTER);
+        state.sendKeys(Keys.ENTER);
+
+        WebElement submit = driver.findElement(By.cssSelector(".row #submit"));
+        actions.moveToElement(submit).build().perform();
+
+        WebElement exampleModel = driver.findElement(By.id("example-modal-sizes-title-lg"));
+
+        Assert.assertEquals(exampleModel.getText(), "Thanks for submitting the form");
+        System.out.println(exampleModel.getText());
+
+        WebElement close = driver.findElement(By.id("closeLargeModal"));
+        actions.moveToElement(close).build().perform();
+
+        driver.close();
 
     }
 }

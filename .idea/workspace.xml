@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Update social tests">
+    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Update form test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Alert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Slider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Slider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/practice/Form.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Pratctice" />
+        <entry key="$PROJECT_DIR$" value="SocialTests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,8 +73,8 @@
       <recent name="C:\Java\POMProject23" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Form.inputFormRegistration">
-    <configuration name="Form.inputFormRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Tab.TabTest">
+    <configuration name="Hover.hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +83,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Form" />
-      <option name="METHOD_NAME" value="inputFormRegistration" />
+      <option name="MAIN_CLASS_NAME" value="practice.Hover" />
+      <option name="METHOD_NAME" value="hover" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Form.inputFormRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IFrame.iFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +101,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Form" />
-      <option name="METHOD_NAME" value="inputFormRegistration" />
+      <option name="MAIN_CLASS_NAME" value="practice.IFrame" />
+      <option name="METHOD_NAME" value="iFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,17 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryTests.faceBook" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMenu.selectMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InventoryTests" />
-      <option name="METHOD_NAME" value="faceBook" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.SelectMenu" />
+      <option name="METHOD_NAME" value="selectMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryTests.linkedin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Slider.slide" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InventoryTests" />
-      <option name="METHOD_NAME" value="linkedin" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Slider" />
+      <option name="METHOD_NAME" value="slide" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryTests.twitter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tab.TabTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InventoryTests" />
-      <option name="METHOD_NAME" value="twitter" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Tab" />
+      <option name="METHOD_NAME" value="TabTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Form.inputFormRegistration" />
-        <item itemvalue="TestNG.Form.inputFormRegistration (1)" />
-        <item itemvalue="TestNG.InventoryTests.linkedin" />
-        <item itemvalue="TestNG.InventoryTests.twitter" />
-        <item itemvalue="TestNG.InventoryTests.faceBook" />
+        <item itemvalue="TestNG.Tab.TabTest" />
+        <item itemvalue="TestNG.Slider.slide" />
+        <item itemvalue="TestNG.SelectMenu.selectMenu" />
+        <item itemvalue="TestNG.IFrame.iFrame" />
+        <item itemvalue="TestNG.Hover.hover" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678897629975</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update form test">
+      <created>1678957927132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678957927132</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +245,8 @@
     <MESSAGE value="Chrome Driver Resloved problem" />
     <MESSAGE value="Update Practise" />
     <MESSAGE value="Update social tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update social tests" />
+    <MESSAGE value="Update form test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update form test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -262,13 +273,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/practice/Form.java</url>
-          <line>60</line>
+          <line>64</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/practice/Form.java</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/Form.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
