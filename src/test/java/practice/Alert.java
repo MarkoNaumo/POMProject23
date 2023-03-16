@@ -21,25 +21,25 @@ public class Alert {
         alertButton.click();
         driver.switchTo().alert().accept();
 
-        WebElement alertTimeButton = driver.findElement(By.id("timerAlertButton"));
-        alertTimeButton.click();
-        Thread.sleep(5000);
-        driver.switchTo().alert().accept();
-        driver.quit();
-
-        WebElement alertTimeButton1 = driver.findElement(By.id("confirmButton"));
-        alertTimeButton1.click();
-        String alertText1 =driver.switchTo().alert().getText();
-        System.out.println(alertText1);
-        driver.switchTo().alert().dismiss();
-        driver.quit();
-
-        WebElement alertTimeButton2 = driver.findElement(By.id("promtButton"));
-        alertTimeButton2.click();
-        String alertText2 =driver.switchTo().alert().getText();
-        System.out.println(alertText2);
-        driver.switchTo().alert().sendKeys("Marko");
-        driver.switchTo().alert().accept();
+//        WebElement alertTimeButton = driver.findElement(By.id("timerAlertButton"));
+//        alertTimeButton.click();
+//        Thread.sleep(5000);
+//        driver.switchTo().alert().accept();
+//        driver.quit();
+//
+//        WebElement alertTimeButton1 = driver.findElement(By.id("confirmButton"));
+//        alertTimeButton1.click();
+//        String alertText1 =driver.switchTo().alert().getText();
+//        System.out.println(alertText1);
+//        driver.switchTo().alert().dismiss();
+//        driver.quit();
+//
+//        WebElement alertTimeButton2 = driver.findElement(By.id("promtButton"));
+//        alertTimeButton2.click();
+//        String alertText2 =driver.switchTo().alert().getText();
+//        System.out.println(alertText2);
+//        driver.switchTo().alert().sendKeys("Marko");
+//        driver.switchTo().alert().accept();
         driver.quit();
     }
 }
