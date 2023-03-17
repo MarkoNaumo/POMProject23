@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
     public void loginWithValidCredential() {
 
         loginPage.Login(Strings.VALID_USERNAME, Strings.VALID_PASSWORD);
-        assert driver.getCurrentUrl().equals(Strings.INVENTORY_PAGE_URL) : "Wrong URL Expected: " + Strings.INVENTORY_PAGE_URL;
+        Assert.assertEquals(driver.getCurrentUrl(),Strings.INVENTORY_PAGE_URL ,"Wrong URL Expected: " + Strings.INVENTORY_PAGE_URL);
     }
 
     @Test
