@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Update form test">
+    <list default="true" id="aefe1dcb-780d-431f-b6de-33129c01176b" name="Changes" comment="Update form test assert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Slider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Slider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/practice/Form.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/practice/Alert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Slider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/practice/Slider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SocialTests" />
+        <entry key="$PROJECT_DIR$" value="UpdateFormTest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,54 +74,35 @@
       <recent name="C:\Java\POMProject23" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Tab.TabTest">
-    <configuration name="Hover.hover" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.tests.CardTests and 3 more">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Hover" />
-      <option name="METHOD_NAME" value="hover" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IFrame.iFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginWithValidCredential" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMProject23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.IFrame" />
-      <option name="METHOD_NAME" value="iFrame" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectMenu.selectMenu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="POMProject23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.SelectMenu" />
-      <option name="METHOD_NAME" value="selectMenu" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginWithValidCredential" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,13 +146,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tests.CardTests and 3 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POMProject23" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="tests.CardTests" />
+        <pattern testClass="tests.InventoryTests" />
+        <pattern testClass="tests.LoginTest" />
+        <pattern testClass="tests.SortingTests" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.tests.CardTests and 3 more" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.loginWithValidCredential" />
         <item itemvalue="TestNG.Tab.TabTest" />
         <item itemvalue="TestNG.Slider.slide" />
-        <item itemvalue="TestNG.SelectMenu.selectMenu" />
-        <item itemvalue="TestNG.IFrame.iFrame" />
-        <item itemvalue="TestNG.Hover.hover" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678957927132</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update form test assert">
+      <created>1678976848583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678976848583</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +250,8 @@
     <MESSAGE value="Update Practise" />
     <MESSAGE value="Update social tests" />
     <MESSAGE value="Update form test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update form test" />
+    <MESSAGE value="Update form test assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update form test assert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,7 +273,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

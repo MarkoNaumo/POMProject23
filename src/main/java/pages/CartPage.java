@@ -45,6 +45,7 @@ public class CartPage extends BasePage{
         return inventoryItemName.getText();
     }
     public CartPage(ChromeDriver driver){
+        this.driver = driver;
         PageFactory.initElements(driver,this);
     }
 }
