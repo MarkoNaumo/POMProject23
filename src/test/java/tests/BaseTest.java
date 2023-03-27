@@ -18,7 +18,7 @@ public class BaseTest {
 
     WebDriver driver;
     public ChromeDriver openWebDriver() {
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--start-maximized");
